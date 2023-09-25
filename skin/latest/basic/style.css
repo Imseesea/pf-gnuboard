@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.lat {
+  position: relative;
+  margin-bottom: 20px;
+  background: #fff;
+}
+.lat .lat_title {
+  display: block;
+  line-height: 45px;
+  font-size: 1.2em;
+  color: #253dbe;
+}
+.lat .notice-wrap-tit a {
+  position: relative;
+  font-size: 34px;
+  font-weight: 900;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+
+.lat ul {
+  /* padding: 10px 0; */
+  padding: 25px;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 100%;
+}
+.lat li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  line-height: 18px;
+  /* border-bottom: 1px solid #e5ecee; */
+  /* margin-bottom: 10px; */
+  border-bottom: 1px solid #f6f6f6;
+}
+.lat li:hover {
+  /* border-bottom: 1px solid #fe2e00; */
+}
+.lat li a {
+  color: #2b2b2b;
+  /* width: 400px; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lat li a:hover {
+}
+.lat li .fa-heart {
+  color: #ff0000;
+}
+.lat li .fa-lock {
+  display: inline-block;
+  line-height: 14px;
+  width: 16px;
+  font-size: 0.833em;
+  color: #4f818c;
+  background: #cbe3e8;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 12px;
+  border: 1px solid #cbe3e8;
+  vertical-align: middle;
+}
+.lat li .new_icon {
+  display: none;
+  /* display: inline-block; */
+  width: 16px;
+  line-height: 16px;
+  font-size: 0.833em;
+  color: #23db79;
+  background: #b9ffda;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 2px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.lat li .hot_icon {
+  display: inline-block;
+  width: 16px;
+  line-height: 16px;
+  font-size: 0.833em;
+  color: #ff0000;
+  background: #ffb9b9;
+  text-align: center;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.lat li .fa-caret-right {
+  color: #bbb;
+}
+.lat li .fa-download {
+  display: inline-block;
+  width: 16px;
+  line-height: 16px;
+  font-size: 0.833em;
+  color: #daae37;
+  background: #ffefb9;
+  text-align: center;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.lat li .fa-link {
+  display: inline-block;
+  width: 16px;
+  line-height: 16px;
+  font-size: 0.833em;
+  color: #b451fd;
+  background: #edd3fd;
+  text-align: center;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.lat .profile_img img {
+  border-radius: 50%;
+}
+
+.lt_info {
+  padding: 10px 0;
+}
+.lt_info .lt_nick {
+  display: none;
+}
+.lt_info .lt_date {
+  color: #7b7b7b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.lat .empty_li {
+  line-height: 145px;
+  color: #666;
+  text-align: center;
+  padding: 0;
+}
+.lat .empty_li:before {
+  background: none;
+  padding: 0;
+}
+
+.lat .lt_cmt {
+  background: #e9eff5;
+  color: #3a8afd;
+  font-size: 11px;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.lat .lt_more {
+  position: absolute;
+  top: 11px;
+  right: 0;
+  display: block;
+  padding-right: 20px;
+  line-height: 25px;
+  color: #7b7b7b;
+  border-radius: 3px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.lat .lt_more::after {
+  content: "\f30b";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lat .lt_more:hover {
+  color: #777;
+}

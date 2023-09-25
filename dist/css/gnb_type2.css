@@ -1,0 +1,26 @@
+.container-xxl {
+  width: 100%;
+  height: 70px;
+  background: #f6f6f6;
+}
+.container-xxl .snb_ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}
+.container-xxl .snb_ul li {
+  line-height: 50px;
+  padding-left: 15px;
+}
+.container-xxl .snb_ul li a {
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: #585858;
+}
+.container-xxl .snb_ul .active a {
+  color: #000;
+} /*# sourceMappingURL=gnb_type2.css.map */
